@@ -1,7 +1,10 @@
 rootProject.name = "practice-spring-multi-module"
 
 include(
-    "module-application:api-server"
+    "module-application:api-server",
+    "module-application:consumer",
+    "module-core:module-domain",
+    "module-core:module-postgresql",
 )
 
 pluginManagement {

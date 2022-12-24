@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class PracticeSpringMultiModuleApplication
+class ApiServerApplication
 
 fun main(args: Array<String>) {
-    runApplication<PracticeSpringMultiModuleApplication>(*args)
+    runApplication<ApiServerApplication>(*args)
 }
