@@ -1,3 +1,5 @@
+rootProject.name = "practice-spring-multi-module"
+
 include(
     "module-application:api-server"
 )
